@@ -1,4 +1,4 @@
-#Standup Meeting
+# Standup Meeting
 
 ### Date:10/16/2022
 
