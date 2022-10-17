@@ -1,0 +1,173 @@
+
+/* This is the background color gradient used */
+
+body, html{
+    font-family: 'Google Sans', 'Roboto', 'Noto', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 10px;
+}
+
+
+.wrapper {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position:sticky;
+    top: 20px;
+
+}
+
+.box {
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.one{
+    width: 300px;
+    height: 3in;
+    padding: 1px 1px 0;
+}
+.one:hover{
+    border-radius: 10pc;
+
+    
+}
+
+.two{
+    width: 20vw;
+    height: 30vh;
+    display: inline-block;
+    padding: 1px 5px 0;
+
+}
+
+.two:hover{
+    border-radius: 1vmax;
+}
+
+h2 {
+    text-decoration: wavy underline;
+}
+
+.three{
+    text-align: center;
+    border-style:ridge;
+    background-color: black;
+    border-radius: 100px;
+    border-width: 10px;
+    border-color: blanchedalmond;
+    position: static;
+}
+
+.four {
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1;
+}
+
+.five {
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1;
+}
+.six {
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1;
+}
+
+.container-1{
+    display: flex;
+}
+
+.container-2{
+    display: inline-flex;
+    gap: 100px;
+}
+
+.other1{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    order: 3;
+    
+}
+.other2{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    order: 2;
+   
+}
+.other3{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 5px;
+    order: 1;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+    
+}
+
+.grid-item1{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    grid-area: main;
+}
+.grid-item2{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    grid-area: sidebar;
+}
+.grid-item3{
+    background-color: black;
+    color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 5px;
+    grid-area: header;
+}
+button{
+    background-color:#FF4470;
+    border-color:#FF4470;        
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px){
+    h1{
+        color:green;
+    }
+}
